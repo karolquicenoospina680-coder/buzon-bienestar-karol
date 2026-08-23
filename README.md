@@ -59,16 +59,16 @@ package.json
 ## Retrospectiva
 
 **¿Qué funcionó bien?**
-[Completar]
+La estructura del taller en etapas cortas nos permitió avanzar de forma ordenada, cerrando cada parte antes de pasar a la siguiente. La conexión entre StackBlitz, GitHub y Render fue mucho más sencilla de lo que esperábamos, ya que no tuvimos que instalar nada en el computador. El código base de Express que nos dieron funcionó bien desde el principio, y una vez entendimos cómo estaba organizado el proyecto, el formulario y el panel de administración quedaron conectados sin mayor complicación.
 
 **¿Qué nos costó más trabajo?**
 Ubicar correctamente los archivos `admin.html` y `script.js` dentro de la carpeta `public` (al inicio quedaron fuera, lo que generaba errores como `Cannot GET /admin.html`), y recordar reiniciar el servidor con `npm start` para que tomara los cambios en el código, como el manejo de errores 404.
 
 **¿Qué harían distinto si empezaran de nuevo?**
-[Completar]
+Revisaríamos con más cuidado la estructura de carpetas desde el inicio, antes de copiar y pegar el código, para evitar los errores de rutas que tuvimos. También probaríamos cada archivo apenas lo creáramos, en vez de esperar a tener los cuatro completos para hacer la primera prueba, así habríamos detectado más rápido en qué archivo estaba el problema.
 
 **¿Qué le agregarían al buzón en una siguiente versión?**
-[Completar — ideas: guardar las sugerencias en una base de datos real en vez de memoria, mostrar la fecha en el panel de administración, filtrar sugerencias por categoría, agregar autenticación al panel admin]
+Nos gustaría guardar las sugerencias en una base de datos real en vez de en memoria, para que no se pierdan cada vez que el servidor se reinicia. También agregaríamos la fecha visible en el panel de administración, un filtro por categoría para revisar las sugerencias más fácilmente, y algún tipo de autenticación para que solo el equipo de bienestar universitario pueda entrar al panel administrativo.
 
 ## Enlaces
 
